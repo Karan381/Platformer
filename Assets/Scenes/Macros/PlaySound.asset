@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlaySound
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"flow","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0,"$type":"UnityEngine.Object"},"_type":"UnityEngine.AudioClip","key":"AudioClip","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-428.2379,"y":8.333399},"zoom":0.6999999,"elements":[{"argumentCount":1,"defaultValues":{"name":{"$content":"PlaySound","$type":"System.String"},"target":null},"position":{"x":89.0,"y":-222.0},"guid":"63ee004a-2c6a-4da8-b887-3da2dfb3a3ca","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"soundManager","$type":"System.String"}},"position":{"x":-217.0,"y":-33.0},"guid":"4e1c95ec-0544-438a-83b3-62679f106ab4","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"defaultValues":{},"position":{"x":-457.0,"y":-218.0},"guid":"d748af3f-0633-459a-9952-a9a57ef0a6b3","$version":"A","$type":"Bolt.GraphInput","$id":"15"},{"sourceUnit":{"$ref":"15"},"sourceKey":"flow","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"87bc48e4-94c6-4f06-bf0d-dfbed55374a6","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"c029289f-da85-4c48-b96d-3e2d90abfd0f","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"AudioClip","destinationUnit":{"$ref":"11"},"destinationKey":"argument_0","guid":"cc663297-87d9-4486-a9a1-939cde46317f","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 9e2e3bfa0b1c2a34f83910a733ad23f3, type: 3}
