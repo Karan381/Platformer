@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Textures/GameWinScene.unity
     guid: b97caed3aa33df446bff823097758fe4
+  - enabled: 1
+    path: Assets/Scenes/Textures/MainMenuScene.unity
+    guid: 623cb00bc284cbc45b9f7f635d215ff9
   m_configObjects: {}
