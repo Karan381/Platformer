@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4091154053965529575}
   - component: {fileID: 4091154053965529574}
+  - component: {fileID: 1950736742094822834}
   m_Layer: 8
   m_Name: Coin
   m_TagString: Untagged
@@ -48,6 +49,22 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.6
+--- !u!111 &1950736742094822834
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4091154053965529577}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2dd15085e7c88744dae45c728948a479, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 2dd15085e7c88744dae45c728948a479, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &4091154054593267057
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +76,7 @@ GameObject:
   - component: {fileID: 4091154054593266958}
   - component: {fileID: 4091154054593266959}
   m_Layer: 8
-  m_Name: Square
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
