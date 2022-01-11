@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Star
-  m_Shader: {fileID: -6465566751694194690, guid: 83f074d0f3d7f344698ac53ba4be5294, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 21b6e054e61c3eb499bf9e6946cb108d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -55,8 +55,8 @@ Material:
     - _EnableExternalAlpha: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 9.57226, b: 0.15034963, a: 0}
+    - _EmissionColor: {r: 0.16836028, g: 0.0026444024, b: 0, a: 0}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TintColor: {r: 0.17412776, g: 0.8584906, b: 0.19843218, a: 1}
+    - _TintColor: {r: 0.85882354, g: 0.25446656, b: 0.17254902, a: 0}
   m_BuildTextureStacks: []
